@@ -7,7 +7,7 @@ Rails.application.routes.draw do
  
 end
 
-# Prefix Verb   URI Pattern                 Controller#Action
+#      Prefix Verb   URI Pattern                 Controller#Action
 #     reviews GET    /reviews(.:format)          reviews#index
 #             POST   /reviews(.:format)          reviews#create
 #  new_review GET    /reviews/new(.:format)      reviews#new
@@ -16,4 +16,4 @@ end
 #             PATCH  /reviews/:id(.:format)      reviews#update
 #             PUT    /reviews/:id(.:format)      reviews#update
 #             DELETE /reviews/:id(.:format)      reviews#destroy
-#        root GET    /
+#        root GET    /                           home#index
