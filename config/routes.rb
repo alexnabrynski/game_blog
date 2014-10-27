@@ -1,19 +1,19 @@
 Rails.application.routes.draw do
   
-  resources :articles
+  resources :reviews
   
   root 'home#index'
 
  
 end
 
-#       Prefix Verb   URI Pattern                  Controller#Action
-#     articles GET    /articles(.:format)          articles#index
-#              POST   /articles(.:format)          articles#create
-#  new_article GET    /articles/new(.:format)      articles#new
-# edit_article GET    /articles/:id/edit(.:format) articles#edit
-#      article GET    /articles/:id(.:format)      articles#show
-#              PATCH  /articles/:id(.:format)      articles#update
-#              PUT    /articles/:id(.:format)      articles#update
-#              DELETE /articles/:id(.:format)      articles#destroy
-#         root GET    /                            home#index
+# Prefix Verb   URI Pattern                 Controller#Action
+#     reviews GET    /reviews(.:format)          reviews#index
+#             POST   /reviews(.:format)          reviews#create
+#  new_review GET    /reviews/new(.:format)      reviews#new
+# edit_review GET    /reviews/:id/edit(.:format) reviews#edit
+#      review GET    /reviews/:id(.:format)      reviews#show
+#             PATCH  /reviews/:id(.:format)      reviews#update
+#             PUT    /reviews/:id(.:format)      reviews#update
+#             DELETE /reviews/:id(.:format)      reviews#destroy
+#        root GET    /
