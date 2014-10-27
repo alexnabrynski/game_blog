@@ -9,5 +9,11 @@
 	<%= @review.text %>
 </p>
 
-<%= link_to 'Back to reviews', reviews_path %>
-|  <%= link_to 'Edit Review', edit_review_path(@review) %>
+<h2>Comments</h2>
+<%= render @review.comments %>
+
+<h2>Add a comment:</h2>
+<%= render "comments/form" %>
+  
+<%= link_to 'Back to reviews', reviews_path %>  |  
+<%= link_to 'Edit Review', edit_review_path(@review) %>
