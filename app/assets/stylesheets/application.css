@@ -14,6 +14,11 @@
  *= require_self
  */
 
-p {
-	background-color:@brand-warning;
+h1 {
+	background-color: #f0ad4e;
+	color: white;
+}
+
+.jumbotron {
+	background-color: #f0ad4e;
 }
