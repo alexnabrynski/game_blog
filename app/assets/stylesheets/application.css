@@ -3,5 +3,9 @@
 	background-size: cover;
 	margin-bottom: 0px;
 }
-
+.breadcrumb {
+	font-family: Arial;
+	background-color:#473D3D;
+	border-radius: 0px;
+}
 
